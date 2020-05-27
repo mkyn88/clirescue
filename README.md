@@ -5,39 +5,38 @@
 1. Start by forking this repo so you have your own copy.
 2. clone the repo in your Go path:
 
-``` bash
+```bash
 go get github.com/$github_user/clirescue.git
 cd $GOPATH/src/github.com/clirescue
 ```
 
 Install the dependencies:
 
-``` bash
+```bash
 go get github.com/codegangsta/cli
 ```
 
 Load the project into your editor and do a search and replace:
 
-* Replace: `github.com/GoBootcamp`
-* With: `github.com/<github-username>`
+- Replace: `github.com/mkyn88`
+- With: `github.com/<github-username>`
 
 Commit the change:
 
-``` bash
+```bash
 git commit -a -m "forking repo requires internal code changes"
 ```
 
 If everything is properly setup, you should be able to run your code:
 
-``` bash
+```bash
 go run main.go me
 ```
 
 You can use the following demo Pivotal Tracker account:
 
-* Username: gobootcamp
-* Password: santamonica
-
+- Username: gobootcamp
+- Password: santamonica
 
 ## Start rescuing
 
@@ -52,20 +51,19 @@ Your first step might be to store the user token on the drive so next time the p
 
 ### A few hints:
 
-* Understanding Go path's system might be a bit tricky at first.
-* Forking the repo might affect your import statements.
-* The original author might not have made a good use of packages.
-* You more thna likely have some OOP experience, you might want to
+- Understanding Go path's system might be a bit tricky at first.
+- Forking the repo might affect your import statements.
+- The original author might not have made a good use of packages.
+- You more thna likely have some OOP experience, you might want to
   leverage it in this exercise.
-* Checkout the `init` function.
-* Curious about how a 3rd party lib works? Try go doc.
-* Simpler is better.
-* Look into how to write tests.
-* Bonus point for removing 3rd part dependencies.
+- Checkout the `init` function.
+- Curious about how a 3rd party lib works? Try go doc.
+- Simpler is better.
+- Look into how to write tests.
+- Bonus point for removing 3rd part dependencies.
 
 As always, refer to the [Effective Go doc](http://golang.org/doc/effective_go.html) and [the go bootcamp book](http://www.golangbootcamp.com/book) if you have any questions.
 
-
 ### Existing refactors
 
-* [@campoy](https://github.com/campoy) and [@evanphx](https://github.com/evanphx) did a public refactor in Santa Monica (March 2014) [see fork](https://github.com/campoy/cliRescue) and [godoc](http://godoc.org/github.com/campoy/clirescue)
+- [@campoy](https://github.com/campoy) and [@evanphx](https://github.com/evanphx) did a public refactor in Santa Monica (March 2014) [see fork](https://github.com/campoy/cliRescue) and [godoc](http://godoc.org/github.com/campoy/clirescue)
